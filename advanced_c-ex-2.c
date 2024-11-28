@@ -55,7 +55,6 @@ int main(){
     show_array(arr,size);
 
     choose_sort_algo(arr,size);
-    show_array(arr,size);
     
     printf("enter a target to search for in the sorted array: ");
     scanf("%d",&target);
