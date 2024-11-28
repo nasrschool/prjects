@@ -145,10 +145,13 @@ void choose_sort_algo(int *arr,int size){
     switch (choice){
         case 1:
             selection_sort(arr,size);
+            break;
         case 2:
             bubble_sort(arr,size);
+            break;
         default:
             printf("enter a number between 1 and 2 next time\n");
+            return;
     }
     show_array(arr,size);
     
