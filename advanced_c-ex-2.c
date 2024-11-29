@@ -38,9 +38,7 @@ int main(){
     printf("enter how many numbers u are planing to add to the array: ");
     scanf("%d",&add_size);
 
-    //printf("arr = %p\n",arr);
     arr = (int*) realloc(arr,sizeof(int) * (size + add_size));
-    //printf("arr = %p\n",arr);
     if(arr == NULL){
         printf("the dynamic memory allocation was unsuccessful");
         return 1;
@@ -67,13 +65,6 @@ int main(){
     return 0;
 }
 
-/*int main(){
-    int arr[6] = {1,5,7,12,16,19};
-    printf("the index of 7 on arr is : %d\n",binary_search(arr,6,16));
-
-
-    return 0;
-}*/
 
 
 
